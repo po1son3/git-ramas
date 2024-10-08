@@ -21,5 +21,25 @@ git diff
 
 ## VER COMMITS
 ````sh
-git show ( y nombre del id)
+git show <numero hash>
+````
+
+## Crear una RAMAS
+```sh
+git branch <nombre-rama> # Crear una ramaa y nos deja en la rama original
+git switch -c <nombre-rama> # Crea una rama y nos mueve a la rama que se creo
+```
+## Me muevo entre RAMAS
+````sh
+git switch <nombre-rama>
+git switch feature/ramas #ejemplo
+````
+## Comparar entre los últimos commits de las ramas
+````sh
+git diff <nombre-rama-que-quiero-comparar> # Comparo la rama actual contra la rama que indico
+git diff dev # ejemplo. comparo feature/ramas con dev
+````
+## Ver las ramas locales y remotas 
+````sh
+git branch -a # me muestra las ramas locales y remotas
 ````
