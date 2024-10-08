@@ -18,3 +18,8 @@ git config --global alias.l "log --oneline"
 ````sh
 git diff
 ````
+
+## VER COMMITS
+````sh
+git show ( y nombre del id)
+````
